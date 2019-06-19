@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/vi" android:hint="Digite o valor inicial"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/tj" android:hint="Digite a taxa de juros (%)"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/pt"
+            android:hint="Digite o período de tempo"
+    />
+    <Button
+            android:text="CALCULAR"
+            android:layout_width="wrap_content"
+            android:textColor="#EBEBE4"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+    <TextView
+            android:text="Montante final"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:layout_height="wrap_content" android:id="@+id/mf"/>
+</LinearLayout>
